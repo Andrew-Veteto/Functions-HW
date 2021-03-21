@@ -28,7 +28,7 @@ document.body.querySelector(".fire").addEventListener("click", function(){
   done = 0;
   done = done + DragonDamage;
   if(DragonDamage >= 10){
-    wrap.innerHTML="You won!"
+    fini.innerHTML="You won!"
   }
   })
 document.body.querySelector(".ice").addEventListener("click", function(){
@@ -37,7 +37,7 @@ document.body.querySelector(".ice").addEventListener("click", function(){
   done = 0;
   done = done + DragonDamage;
   if(DragonDamage >= 10){
-    wrap.innerHTML="You won!"
+    fini.innerHTML="You won!"
   }
 })
 
